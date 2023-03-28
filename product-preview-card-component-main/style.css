@@ -161,15 +161,13 @@ body {
   padding: 0.8rem 0.75rem;
   border-radius: 5px;
   border: none;
+  font-size: var(--fs-500);
+  font-family: var(--font-family-montserrat);
 }
 
 .cart_icon {
   margin-right: 10px;
   fill: white;
-}
-.button_text {
-  font-size: var(--fs-500);
-  font-family: var(--font-family-montserrat);
 }
 
 .button:is(:hover, :focus) {
